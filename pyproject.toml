@@ -18,16 +18,16 @@ dev = [
     "isort",
     "flake8",
     "mypy",
-    "nb_black",
     "pylint",
-    "pytest"
+    "pytest",
+    "twine",
 ]
 
 # [project.scripts]
 # script-name = "package.bin.script_name:main"
 
-# [project.urls]
-# source = "https://github.com/michen00/michen"
+[project.urls]
+source = "https://github.com/michen00/michen"
 # download = "https://pypi.org/project/michen/#files"
 
 [tool.black]
